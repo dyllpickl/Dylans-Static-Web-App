@@ -1,1 +1,11 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homework 2</title>
+    </head>
+    <body>
+        <p>
+            I did my homework!
+        </p>
+    </body>
+</html>
