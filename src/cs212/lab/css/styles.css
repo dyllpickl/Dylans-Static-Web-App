@@ -1,6 +1,7 @@
 @font-face {
   font-family: myFont;
-  src:url(newyork.otf);}
+  src:url(butler.otf);}
 
 body {
-  font-family: myFont}
+  font-family: myFont;
+  font-size: 24px}
