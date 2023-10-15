@@ -4,4 +4,14 @@
 
 body {
   font-family: myFont;
-  font-size: 24px}
+  margin: 40px;}
+
+h1 {
+  font-size: 50px;}
+
+h2 {
+  font-size: 38px;}
+
+p {
+  font-size: 25px;}
+
