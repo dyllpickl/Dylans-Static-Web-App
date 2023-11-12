@@ -5,13 +5,17 @@ body {
   grid-template-rows: 20% 20% 20% 20% 20%;}
 
 #header {
-  gird-column: 1/6;
-  border-width: 20px;
+  gird-column: 1/6
+  grid-row: 1/2;
+  border-width: 4px;
   border-style: solid;}
 
 #left_bar {
+  grid-column: 1/2
   grid-row: 2/5;
-  border-width: 20px;
+  border-width: 4px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
   border-style: solid;}
 
 #main_content {
@@ -21,11 +25,13 @@ body {
 #right_bar {
   grid-column: 5/6;
   grid-row: 2/5;
-  border-width: 20px;
+  border-width: 4px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
   border-style: solid;}
 
 #footer {
   grid-column: 1/6;
   grid-row: 5/6;
-  border-width: 20px;
+  border-width: 4px;
   border-style: solid;}
