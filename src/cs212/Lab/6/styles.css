@@ -29,6 +29,9 @@ body {
   border-bottom-width: 0px;
   border-style: solid;}
 
+#right_bar > img {
+  object-fit: contain;}
+
 #footer {
   grid-column: 1/6;
   grid-row: 5/6;
