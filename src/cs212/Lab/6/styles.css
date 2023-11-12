@@ -34,9 +34,8 @@ body {
   padding: 10px;}
 
 #right_bar > img {
-  object-fit: cover;
-  width: auto;
-  height: auto;}
+  width: 100px;
+  height: 150px;}
 
 #footer {
   grid-column: 1/6;
