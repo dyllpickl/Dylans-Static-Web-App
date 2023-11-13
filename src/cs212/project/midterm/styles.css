@@ -1,9 +1,9 @@
 body {
   height: 100vh;
-  width: 100vh;
+  width: 100%;
   display: grid;
-  grid-template-columns: 20vh 20vh 20vh 20vh 20vh;
-  grid-template-rows: 20vh 20vh 20vh 20vh 20vh;}
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;}
 
 #header {
   grid-column: 1/6;
