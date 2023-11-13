@@ -1,7 +1,7 @@
 body {
   height: 98vh;
   width: 99%;
-  background-color: rgb18, 3, 33);
+  background-color: rgb(18, 3, 33);
   color: rgb(211,211,211);
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
