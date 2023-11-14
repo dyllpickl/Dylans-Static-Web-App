@@ -5,12 +5,12 @@ function start_game() {
   document.getElementById("choice1_button").onclick = route1();}
 
 function route1() {
-  document.getElementById("story").innerHTML = stage1.backstory;
-  document.getElementById("question").innerHTML = stage1.question;
+  document.getElementById("story").innerHTML = stage1_2.backstory;
+  document.getElementById("question").innerHTML = stage1_2.question;
   document.getElementById("choice1_button").value = stage1.choice1;
-  document.getElementById("choice1_button").onclick = route1_1();
+  document.getElementById("choice1_button").onclick = route1_1;
   document.getElementById("choice2_button").disabled = false;
-  document.getElementById("choice2_button").style.display="block";
+  document.getElementById("choice2_button").style.display="inline";
   document.getElementById("choice2_button").value = stage1.choice2;
   document.getElementById("choice2_button").onclick = route1_2();}
 
