@@ -93,7 +93,7 @@ function end_route1_1_2_1 (){
   document.getElementById("choice1_button").onclick = start_game;
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";
-  document.getElementById("image").src = "midterm/images/ending1_1_2_1.jpg";}
+  document.getElementById("image").src = "midterm/images/ending1_1_2_1.webp";}
 
 function end_route1_1_2_2 (){
   document.getElementById("story").innerHTML = ending1_1_2_2;
@@ -103,7 +103,7 @@ function end_route1_1_2_2 (){
   document.getElementById("choice1_button").onclick = start_game;
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";
-  document.getElementById("image").src = "midterm/images/ending1_1_2_2.jpg";}
+  document.getElementById("image").src = "midterm/images/ending1_1_2_2.webp";}
 
 function end_route1_2_1_1 (){
   document.getElementById("story").innerHTML = ending1_2_1_1;
