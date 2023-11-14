@@ -62,7 +62,7 @@ function route1_2_2 (){
   document.getElementById("choice2_button").value = stage1_2_2.choice2;
   document.getElementById("choice2_button").onclick = end_route1_2_2_2;}
 
-function ending1_1_1_1 (){
+function end_route1_1_1_1 (){
   document.getElementById("story").innerHTML = ending1_1_1_1;
   document.getElementById("question").innerHTML = start_of_game.restart_prompt;
   document.getElementById("choice1_button").value = "Restart";
@@ -70,7 +70,7 @@ function ending1_1_1_1 (){
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";}
 
-function ending1_1_1_2 (){
+function end_route1_1_1_2 (){
   document.getElementById("story").innerHTML = ending1_1_1_2;
   document.getElementById("question").innerHTML = start_of_game.restart_prompt;
   document.getElementById("choice1_button").value = "Restart";
@@ -78,7 +78,7 @@ function ending1_1_1_2 (){
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";}
 
-function ending1_1_2_1 (){
+function end_route1_1_2_1 (){
   document.getElementById("story").innerHTML = ending1_1_2_1;
   document.getElementById("question").innerHTML = start_of_game.restart_prompt;
   document.getElementById("choice1_button").value = "Restart";
@@ -86,7 +86,7 @@ function ending1_1_2_1 (){
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";}
 
-function ending1_1_2_2 (){
+function end_route1_1_2_2 (){
   document.getElementById("story").innerHTML = ending1_1_2_2;
   document.getElementById("question").innerHTML = start_of_game.restart_prompt;
   document.getElementById("choice1_button").value = "Restart";
@@ -94,7 +94,7 @@ function ending1_1_2_2 (){
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";}
 
-function ending1_2_1_1 (){
+function end_route1_2_1_1 (){
   document.getElementById("story").innerHTML = ending1_2_1_1;
   document.getElementById("question").innerHTML = start_of_game.restart_prompt;
   document.getElementById("choice1_button").value = "Restart";
@@ -102,7 +102,7 @@ function ending1_2_1_1 (){
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";}
 
-function ending1_2_1_2 (){
+function end_route1_2_1_2 (){
   document.getElementById("story").innerHTML = ending1_2_1_2;
   document.getElementById("question").innerHTML = start_of_game.restart_prompt;
   document.getElementById("choice1_button").value = "Restart";
@@ -110,7 +110,7 @@ function ending1_2_1_2 (){
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";}
 
-function ending1_2_2_1 (){
+function end_route1_2_2_1 (){
   document.getElementById("story").innerHTML = ending1_2_2_1;
   document.getElementById("question").innerHTML = start_of_game.restart_prompt;
   document.getElementById("choice1_button").value = "Restart";
@@ -118,7 +118,7 @@ function ending1_2_2_1 (){
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";}
 
-function ending1_2_2_2 (){
+function end_route1_2_2_2 (){
   document.getElementById("story").innerHTML = ending1_2_2_2;
   document.getElementById("question").innerHTML = start_of_game.restart_prompt;
   document.getElementById("choice1_button").value = "Restart";
