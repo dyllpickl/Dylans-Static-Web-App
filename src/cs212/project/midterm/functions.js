@@ -3,12 +3,6 @@ var question_el = document.getElementById("question");
 var choice1_button_el = document.getElementById("choice1_button");
 var choice2_button_el = document.getElementById("choice2_button");
 
-story_el.innerHTML = start_of_game.introduction;
-question_el.innerHTML = start_of_game.begin_prompt;
-choice1_button_el.value = "Begin";
-choice1_button_el.onclick = route1;
-choice2_button_el.disabled = true;
-
 function start_game() {
   story_el.innerHTML = start_of_game.introduction;
   question_el.innerHTML = start_of_game.begin_prompt;
