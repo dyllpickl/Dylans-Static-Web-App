@@ -5,7 +5,8 @@ function start_game (){
   document.getElementById("choice1_button").value = "Begin";
   document.getElementById("choice1_button").onclick = route1;
   document.getElementById("choice2_button").style.display="none";
-  document.getElementById("image").src = "";}
+  document.getElementById("image").src = "";
+  document.getElementById("image").style.border = "none";}
 
 function route1 (){
   document.getElementById("story").innerHTML = stage1.backstory;
