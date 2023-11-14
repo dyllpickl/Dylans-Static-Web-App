@@ -86,7 +86,7 @@ function end_route1_1_1_2 (){
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";
   document.getElementById("image").src = "midterm/images/ending1_1_1_2.jpg";
-  document.getElementById("image").style.display="block";}
+  document.getElementById("image").style.display="inline";}
 
 function end_route1_1_2_1 (){
   document.getElementById("story").innerHTML = ending1_1_2_1;
@@ -96,7 +96,8 @@ function end_route1_1_2_1 (){
   document.getElementById("choice1_button").onclick = start_game;
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";
-  document.getElementById("image").src = "midterm/images/ending1_1_2_1.webp";}
+  document.getElementById("image").src = "midterm/images/ending1_1_2_1.webp";
+  document.getElementById("image").style.display="inline";}
 
 function end_route1_1_2_2 (){
   document.getElementById("story").innerHTML = ending1_1_2_2;
@@ -106,7 +107,8 @@ function end_route1_1_2_2 (){
   document.getElementById("choice1_button").onclick = start_game;
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";
-  document.getElementById("image").src = "midterm/images/ending1_1_2_2.webp";}
+  document.getElementById("image").src = "midterm/images/ending1_1_2_2.webp";
+  document.getElementById("image").style.display="inline";}
 
 function end_route1_2_1_1 (){
   document.getElementById("story").innerHTML = ending1_2_1_1;
@@ -116,7 +118,8 @@ function end_route1_2_1_1 (){
   document.getElementById("choice1_button").onclick = start_game;
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";
-  document.getElementById("image").src = "midterm/images/ending1_2_1_1.jpg";}
+  document.getElementById("image").src = "midterm/images/ending1_2_1_1.jpg";
+  document.getElementById("image").style.display="inline";}
 
 function end_route1_2_1_2 (){
   document.getElementById("story").innerHTML = ending1_2_1_2;
@@ -126,7 +129,8 @@ function end_route1_2_1_2 (){
   document.getElementById("choice1_button").onclick = start_game;
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";
-  document.getElementById("image").src = "midterm/images/ending1_2_1_2.jpg";}
+  document.getElementById("image").src = "midterm/images/ending1_2_1_2.jpg";
+  document.getElementById("image").style.display="inline";}
 
 function end_route1_2_2_1 (){
   document.getElementById("story").innerHTML = ending1_2_2_1;
@@ -136,7 +140,8 @@ function end_route1_2_2_1 (){
   document.getElementById("choice1_button").onclick = start_game;
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";
-  document.getElementById("image").src = "midterm/images/ending1_2_2_1.jpg";}
+  document.getElementById("image").src = "midterm/images/ending1_2_2_1.jpg";
+  document.getElementById("image").style.display="inline";}
 
 function end_route1_2_2_2 (){
   document.getElementById("story").innerHTML = ending1_2_2_2;
@@ -146,4 +151,5 @@ function end_route1_2_2_2 (){
   document.getElementById("choice1_button").onclick = start_game;
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";
-  document.getElementById("image").src = "midterm/images/ending1_2_2_2.jpg";}
+  document.getElementById("image").src = "midterm/images/ending1_2_2_2.jpg";
+  document.getElementById("image").style.display="inline";}
