@@ -1,5 +1,5 @@
 var start_of_game = {
-  introduction: "Welcome to Dylan's \"Choose Your Own Adventure \" website.  Here, you will always start at one point, though by choices made in the story by yourself, you will end up with 1 of 8 different endings.  Enjoy!",
+  introduction: "Welcome to Dylan's \"Choose Your Own Adventure\" website.  Here, you will always start at one point, though by choices made in the story by yourself, you will end up with 1 of 8 different endings.  Enjoy!",
   begin_prompt: "To begin the story, press \"Begin\" when ready",
   restart_prompt: "To restart the story, press \"Restart\" when ready",}
 
