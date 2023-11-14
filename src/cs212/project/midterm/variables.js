@@ -1,3 +1,8 @@
+var start_of_game = {
+  introduction: "Welcome to Dylan's \"Choose Your Own Adventure \" website.  Here, you will always start at one point, though by choices made in the story by yourself, you will end up with 1 of 8 different endiings.  Enjoy!",
+  begin_prompt: "To begin the story, press \"begin\" when ready",
+  restart_prompt: "To restart the story, press \"Restart\" when ready",}
+
 var stage1 = {
   backstory: "It was a nice windy afternoon.  After tending to the crops, you went over to the pig pen to feed your pigs.  Then the chickens, and the cows after that.  Suddenly you hear a scream come from up the road.  With a shotgun in hand, you walk up to a person on top of another person, who of which is screaming.  Upon a closer look, you realize that this \"person\" is eating the other and quickly push them off with the back of your gun.  You check on the person on the floor, but no response and the other that you pushed back starts to get up, looking dead with rotting flesh and blood across the body.  Soon the other reaches the same state.  After dealing with them you rush back to your house and overhear the radio you left on.  \"Stay indoors.  A virus has broken out causing humans to feast on one another.  Wait until authorities arrive.\"  Shocked, you sit down in your chair.  You have two options.  Because you live on a farm, you could wait out the outbreak and strengthen your home.  On the other hand, you have friends far off in the city.",
   question: "Will you stay at the farm and strengthen your home, or leave off to the city in hopes your friends are okay?",
