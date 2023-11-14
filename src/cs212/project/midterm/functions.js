@@ -6,7 +6,7 @@ function start_game (){
   document.getElementById("choice1_button").onclick = route1;
   document.getElementById("choice2_button").style.display="none";
   document.getElementById("image").src = "";
-  document.getElementById("image").style.border = "none";}
+  document.getElementById("image").style.display="none";}
 
 function route1 (){
   document.getElementById("story").innerHTML = stage1.backstory;
@@ -74,7 +74,8 @@ function end_route1_1_1_1 (){
   document.getElementById("choice1_button").onclick = start_game;
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";
-  document.getElementById("image").src = "midterm/images/ending1_1_1_1.jpg";}
+  document.getElementById("image").src = "midterm/images/ending1_1_1_1.jpg";
+  document.getElementById("image").style.display="inline";}
 
 function end_route1_1_1_2 (){
   document.getElementById("story").innerHTML = ending1_1_1_2;
@@ -84,7 +85,8 @@ function end_route1_1_1_2 (){
   document.getElementById("choice1_button").onclick = start_game;
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";
-  document.getElementById("image").src = "midterm/images/ending1_1_1_2.jpg";}
+  document.getElementById("image").src = "midterm/images/ending1_1_1_2.jpg";
+  document.getElementById("image").style.display="block";}
 
 function end_route1_1_2_1 (){
   document.getElementById("story").innerHTML = ending1_1_2_1;
