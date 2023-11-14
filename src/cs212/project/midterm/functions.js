@@ -3,7 +3,8 @@ function start_game (){
   document.getElementById("story").innerHTML = start_of_game.introduction;
   document.getElementById("question").innerHTML = start_of_game.begin_prompt;
   document.getElementById("choice1_button").value = "Begin";
-  document.getElementById("choice1_button").onclick = route1;}
+  document.getElementById("choice1_button").onclick = route1;
+  document.getElementById("choice2_button").style.display="inline"}
 
 function route1 (){
   document.getElementById("story").innerHTML = stage1.backstory;
@@ -134,3 +135,5 @@ function end_route1_2_2_2 (){
   document.getElementById("choice1_button").onclick = start_game;
   document.getElementById("choice2_button").disabled = true;
   document.getElementById("choice2_button").style.display="none";}
+
+start_game();
