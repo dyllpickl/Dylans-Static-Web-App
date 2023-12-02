@@ -1,5 +1,5 @@
-$(document).ready(function() {
-  $("#submitbutton").on("click", function(e) {
+$(function() {
+  $("#submitbutton").on("click", function() {
     var value1 = $("#value1").val();
     var value2 = $("#value2").val();
     var value3 = $("#value3").val();
