@@ -1,10 +1,10 @@
 $('#form').on('submit', function(e) {
   e.preventDefault();
-  var value1 = document.getElementById("value1").value;
-  var value2 = document.getElementById("value2").value;
-  var value3 = document.getElementById("value3").value;
-  var value4 = document.getElementById("value4").value;
-  var value5 = document.getElementById("value5").value;
+  var value1 = $('#value1).val();
+  var value2 = $('#value2).val();
+  var value3 = $('#value3).val();
+  var value4 = $('#value4).val();
+  var value5 = $('#value5).val();
   
   var mad_lib = "<p>" + "Your " + value1 + " friend is about to go to " + value2 + "," + "</p>";
   mad_lib += "<p>" + "On his way, he finds a " + value3 + " man on the side of the road," + "</p>";
