@@ -1,4 +1,4 @@
-$("#form").on("submit", function(e) {
+$("#submitbutton").on("click", function(e) {
   e.preventDefault();
   var value1 = $("#value1").val();
   var value2 = $("#value2").val();
