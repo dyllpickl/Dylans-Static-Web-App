@@ -22,5 +22,5 @@
     } else {
       $pwd_error.text('');
     }
-  }
+  })
 })();
