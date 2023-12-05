@@ -5,28 +5,28 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
-        <form action="results.html" method="get">
+        <form action="" method="get">
             <fieldset>
-                <legend>Login</legend>
+                <legend>Register</legend>
                 
-                <label for="first_name">First Name</label>
-                <input type="text" id="first_name" name="first_name" required>
+                <label for="first_name">First Name:</label></br>
+                <input type="text" id="first_name" name="first_name" placeholder="John" required>
                 
-                <label for="last_name">Last Name</label>
-                <input type="text" id="last_name" name="last_name" required>
+                <label for="last_name">Last Name:</br></label></br>
+                <input type="text" id="last_name" name="last_name" placeholder="Doe" required>
                 
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" required>
+                <label for="email">Email:</br></label></br>
+                <input type="email" id="email" name="email" placeholder="johndoe@gmail.com" required>
                 
-                <label for="pwd">Password</label>
-                <input type="text" id="pwd" name="pwd" required>
+                <label for="pwd">Password:</br></label></br>
+                <input type="password" id="pwd" name="pwd" required>
                 
-                <label for="conf_pwd">Confirm Password</label>
-                <input type="text" id="conf_pwd" name="conf_pwd" required>
+                <label for="conf_pwd">Confirm Password:</br></label></br>
+                <input type="password" id="conf_pwd" name="conf_pwd" required>
 
                 <input type="submit" value="Register" />
             </fieldset>
         </form>
-        <script src="lab8/validation.js"></script>
     </body>
+    <script src="lab8/validation.js"></script>
 </html>
