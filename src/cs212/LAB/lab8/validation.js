@@ -100,10 +100,11 @@
         break;
       }
       formValid = true;
+    }
 
-      if (!formValid) {
-        e.preventDefault();
+    if (!formValid) {
+      e.preventDefault();
     }
   });
-}());
+})();
       
