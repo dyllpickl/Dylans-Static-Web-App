@@ -24,7 +24,7 @@
                 <input type="text" id="conf_pwd" name="conf_pwd" />
                 
             </fieldset>
-            <script src="lab8/validation.js" />
+            <script src="lab8/validation.js"></script>
         </form>
     </body>
 </html>
