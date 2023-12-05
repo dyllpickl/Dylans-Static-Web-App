@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab 7</title>
+    </head>
+    <body>
+        <form action="results.html" method="get">
+            <fieldset>
+                <legend>Login</legend>
+                
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" />
+                
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" />
+                
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" />
+                
+                <label for="pwd">Password</label>
+                <input type="text" id="pwd" name="pwd" />
+                
+                <label for="conf_pwd">Confirm Password</label>
+                <input type="text" id="conf_pwd" name="conf_pwd" />
+                
+            </fieldset>
+            <script src="lab8/validation.js" />
+        </form>
+    </body>
+</html>
