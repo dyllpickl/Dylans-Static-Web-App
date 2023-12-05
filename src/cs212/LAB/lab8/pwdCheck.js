@@ -17,7 +17,7 @@
   $('form').on('submit', function(e) {
     var $pwd_error = $(document.getElementById("#pwd_error"));
     if (!passwordMatch()) {
-      $pwd_error.text('Passwords do not match, please try again');
+      $pwd_error.innerHTML('Passwords do not match, please try again');
       e.preventDefault();
     } else {
       $pwd_error.text('');
