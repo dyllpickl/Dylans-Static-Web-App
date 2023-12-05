@@ -16,10 +16,10 @@
   
   // Check if email input is valid format, return if valid or not
   function validEmail() {
-    var email = $("#email")[0];
+    var email = document.getElementById("email");
     var valid = /[^@]+@[^@]+/.test(email.value);
     if (!valid) {
-      setErrorMessage(el, "Please enter a valid email");
+      setErrorMessage(email, "Please enter a valid email");
     }
     return valid;
   }
@@ -45,8 +45,8 @@
 
   // Check if passwords match, return true if match
   function passwordMatch() {
-    var pwd = $("#pwd")[0];
-    var conf_pwd = $("#conf_pwd")[0];
+    var pwd = document.getElementById("pwd");
+    var conf_pwd = document.getElementById("conf_pwd");
     if (pwd.value != conf_pwd.value) {
       setErrorMessage(conf_pwd, "Please check that your passwords match");
       return false;
@@ -64,9 +64,10 @@
   }
 
   // Runs through forms to check if requirements are met
-  $("forms").on("submit", function(e) {
+  $("form").on("submit", function(e) {
     var elements = this.elements;
     var valid = {};
+    var formValid;
 
     // Run through all form elements, and add them to valid object with a true or false value
     for (var i = 0; i < (elements.length-1); i++) {
@@ -79,4 +80,30 @@
       valid[elements[i].id] = nonEmptyEl;
     }
     
-    if (
+    if (!validEmail()) {
+      showErrorMessage(document.getElementById("email"));
+      valid.email = false;
+    } else {
+      removeErrorMessage(document.getElementById("email"));
+    }
+
+    if (!passwordMatch()) {
+      showErrorMessage(document.getElementById("conf_pwd"));
+      valid.conf_pwd = false;
+    } else {
+      removeErrorMessage(document.getElementById("conf_pwd"));
+    }
+
+    for (var i in valid) {
+      if (!valid[i]) {
+        formValid = false;
+        break;
+      }
+      formValid = true;
+
+      if (!formValid) {
+        e.preventDefault();
+    }
+  });
+}());
+      
