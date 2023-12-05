@@ -16,7 +16,7 @@
   // On submit, check if passwords match, if not, prevent submit
   $('form').on('submit', function(e) {
     if (!passwordMatch()) {
-      $(document.getElementById('#pwd_error')).text('Passwords do not match, please try again');
+      $(document.getElementById('pwd_error')).text('Passwords do not match, please try again');
       e.preventDefault();
     } else {
       $pwd_error.text('');
