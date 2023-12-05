@@ -79,7 +79,8 @@
       }
       valid[elements[i].id] = nonEmptyEl;
     }
-    
+
+    // Make email element false if type is incorrect
     if (!validEmail()) {
       showErrorMessage(document.getElementById("email"));
       valid.email = false;
@@ -87,6 +88,7 @@
       removeErrorMessage(document.getElementById("email"));
     }
 
+    // If passwords don't match, display error message
     if (!passwordMatch()) {
       showErrorMessage(document.getElementById("conf_pwd"));
       valid.conf_pwd = false;
@@ -94,6 +96,7 @@
       removeErrorMessage(document.getElementById("conf_pwd"));
     }
 
+    // Check if everything is valid
     for (var i in valid) {
       if (!valid[i]) {
         formValid = false;
@@ -102,6 +105,7 @@
       formValid = true;
     }
 
+    // If everything is not valid, prevent submit button
     if (!formValid) {
       e.preventDefault();
     }
