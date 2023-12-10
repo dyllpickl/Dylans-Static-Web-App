@@ -1,7 +1,6 @@
 (function () {
   $('td').each(function() {
-    var random = Math.floor(Math.random() * 2);
-    if (random == 0) {
+    if (Math.random() == 0) {
       $(this).addClass('white');
     } else {
       $(this).addClass('grey');
