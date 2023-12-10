@@ -26,13 +26,13 @@ body {
   border-style: solid;
   padding-left: 20px;
   padding-right: 20px;
+  place-items: center;
 }
 
 table {
   width: 200px;
   height: 200px;
   border-collapse: collapse;
-  align: center;
 }
 
 td {
