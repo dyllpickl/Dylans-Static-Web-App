@@ -32,7 +32,7 @@
     var table = document.querySelector('table');
     var row = $(this).parent().index();
     var col = $(this).index(); 
-    changeSquare(this);  // Center
+    changeSquare(table, row, col);  // Center
     changeSquare(table, row - 1, col);  // North
     changeSquare(table, row, col + 1);  // East
     changeSquare(table, row + 1, col);  // South
