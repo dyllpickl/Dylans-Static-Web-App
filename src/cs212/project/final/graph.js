@@ -13,7 +13,7 @@
     var elements = document.querySelectorAll('td');
     var allGrey = true;
     for (var i = 0; i < elements.length; i++) {
-      if (elements[i].hasClass('white')) {
+      if ($(elements[i]).hasClass('white')) {
         allGrey = false;
         break;
       }
