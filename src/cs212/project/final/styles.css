@@ -8,6 +8,27 @@ body {
   grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
+table {
+  width: 500px;
+  height: 500px;
+  border-collapse: collapse;
+}
+
+td {
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(0,0,0);
+  background-color: rgb(255,255,255);
+}
+
+h1 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 20px;
+}
+
 #header {
   grid-column: 1/6;
   grid-row: 1/2;
@@ -30,19 +51,6 @@ body {
   align-items: center;
 }
 
-table {
-  width: 500px;
-  height: 500px;
-  border-collapse: collapse;
-}
-
-td {
-  border-width: 2px;
-  border-style: solid;
-  border-color: rgb(0,0,0);
-  background-color: rgb(255,255,255);
-}
-
 #addendum {
   grid-column: 1/6;
   grid-row: 5/6;
@@ -53,10 +61,12 @@ td {
   overflow: auto;
 }
 
-h1 {
-  font-size: 28px;
+.white {
+  background-color: rgb(255,255,255);
 }
 
-p {
-  font-size: 20px;
+.grey {
+  background-color: rgb(128,128,128);
 }
+
+
