@@ -24,16 +24,12 @@
   $('td').on('click', function() {
     var table = document.querySelector('table');
     var row = $(this).parent().index();
-    var col = $(this).index();
-    var north = [row - 1, col];
-    var east = [row, col + 1];
-    var south = [row + 1, col];
-    var west = [row, col - 1];    
+    var col = $(this).index(); 
     changeClass(this);
-    changeClass(table[north[0]].children[north[1]]);
-    changeClass(table[east[0]].children[east[1]]);
-    changeClass(table[south[0]].children[south[1]]);
-    changeClass(table[west[0]].children[west[1]]);
+    changeClass(table[row - 1].children[col]);  // North
+    changeClass(table[row].children[col + 1]);  // East
+    changeClass(table[row + 1].children[col]);  // South
+    changeClass(table[row].children[col - 1]);  // West
     if (allGrey()) {
       window.alert('You win!');
     }
