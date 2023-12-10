@@ -1,9 +1,10 @@
 (function () {
   $('td').each(function() {
-    if (Math.random() < 0.5) {
-      $(this).addClass('grey');
-    } else {
+    var random = Math.floor(Math.random() * 2);
+    if (random == 0) {
       $(this).addClass('white');
+    } else {
+      $(this).addClass('grey');
     }
   });
       
