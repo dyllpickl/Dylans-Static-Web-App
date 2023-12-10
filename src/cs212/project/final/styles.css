@@ -1,32 +1,36 @@
 body {
   width: 99%;
   height: 99%;
-  background-color: rgb(18, 3, 33);
-  color: rgb(211,211,211);
+  background-color: rgb(255, 255, 240);
+  color: rgb(0,0,0);
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% 20%;
   border-collapse: collapse;
-  border-width: 4px;
-  border-style: solid;
 }
 
 #header {
   grid-column: 1/6;
   grid-row: 1/2;
-  text-align: center;
-  padding-left: 20px;
+  border-width: 4px;
+  border-style: solid;
+  text-align: center;  
+  border-width: 4px;
   padding-right: 20px;
 }
 
 #table {
   grid-column: 1/6;
   grid-row: 2/5;
+  border-width: 4px;
+  border-style: solid;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 table {
+  width: 90%;
+  height: 90%;
   border-collapse: collapse;
   align: center;
 }
@@ -34,13 +38,15 @@ table {
 td {
   border-width: 2px;
   border-style: solid;
-  border-color: rgb(211,211,211);
-  background-color: white;
+  border-color: rgb(0,0,0);
+  background-color: rgb(255,255,255);
 }
 
 #addendum {
   grid-column: 1/6;
   grid-row: 5/6;
+  border-width: 4px;
+  border-style: solid;
   padding-left: 20px;
   padding-right: 20px;
   overflow: auto;
