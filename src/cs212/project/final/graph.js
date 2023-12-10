@@ -22,17 +22,18 @@
   }
                                
   $('td').on('click', function() {
+    var table = document.querySelectorAll('table');
     var row = $(this).parent().index();
     var col = $(this).index();
-    var north = (row - 1, col);
-    var east = (row, col + 1);
-    var south = (row + 1, col);
-    var west = (row, col - 1);    
+    var north = [row - 1, col];
+    var east = [row, col + 1];
+    var south = [row + 1, col];
+    var west = [row, col - 1];    
     changeClass(this);
-    changeClass(north);
-    changeClass(east);
-    changeClass(south);
-    changeClass(west);
+    changeClass(table[north[0]].children[north[1]]);
+    changeClass(table[east[0]].children[east[1]]);
+    changeClass(table[south[0]].children[south[1]]);
+    changeClass(table[west[0]].children[west[1]]);
     if (allGrey()) {
       window.alert('You win!');
     }
