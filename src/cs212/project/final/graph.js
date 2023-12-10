@@ -22,7 +22,7 @@
   }
                                
   $('td').on('click', function() {
-    var table = document.querySelectorAll('table');
+    var table = document.querySelector('table');
     var row = $(this).parent().index();
     var col = $(this).index();
     var north = [row - 1, col];
