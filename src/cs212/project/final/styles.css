@@ -58,7 +58,7 @@ p {
   border-style: solid;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   overflow: auto;
 }
 
