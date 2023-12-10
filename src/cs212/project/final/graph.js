@@ -7,14 +7,15 @@
       $(el).removeClass('grey');
       $(el).addClass('white');
     }
-  };
+  }
 
   function changeSquare(table, r, c) {
     if (r >= 0 && r < 5 && col >= 0 && col < 5) {
       var cell = table.rows[r].cells[c];
       changeClass(cell);
+    }
+  }
     
-
   function allGrey() {
     var elements = document.querySelectorAll('td');
     var allGrey = true;
