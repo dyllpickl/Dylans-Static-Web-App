@@ -1,8 +1,52 @@
 body {
-  background-color: rgb(18, 3, 33);}
+  background-color: rgb(18, 3, 33);
+  color: rgb(211,211,211);
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
 
 #header {
-  text-align: center;}
+  grid-column: 1/6;
+  grid-row: 1/2;
+  text-align: center;
+  border-width: 4px;
+  border-style: solid;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#table {
+  grid-column: 1/6;
+  grid-row: 2/5;
+  border-width: 4px;
+  border-style: solid;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 table {
-  border: 2px;}
+  border-collapse: collapse;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(211,211,211);
+  align: center;
+}
+
+#addendum {
+  grid-column: 1/6;
+  grid-row: 5/6;
+  border-width: 4px;
+  border-style: solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
