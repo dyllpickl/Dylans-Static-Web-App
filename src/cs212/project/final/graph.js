@@ -1,9 +1,9 @@
 (function () {
   $('td').each(function() {
     if (Math.random() < 0.5) {
-      this.addClass('white');
+      $(this).addClass('white');
     } else {
-      this.addClass('grey');
+      $(this).addClass('grey');
     }
   });
       
