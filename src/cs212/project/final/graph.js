@@ -2,9 +2,9 @@
   function changeClass(el) {
     if ($(el).hasClass('white')) {
       $(el).removeClass('white');
-      $(el).addClass('black');
+      $(el).addClass('grey');
     } else {
-      $(el).removeClass('black');
+      $(el).removeClass('grey');
       $(el).addClass('white');
     }
   };
