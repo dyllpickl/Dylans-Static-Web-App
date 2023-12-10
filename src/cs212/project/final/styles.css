@@ -1,4 +1,6 @@
 body {
+  width: 99%;
+  height: 99%;
   background-color: rgb(18, 3, 33);
   color: rgb(211,211,211);
   display: grid;
@@ -44,7 +46,7 @@ table {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 28px;
 }
 
 p {
