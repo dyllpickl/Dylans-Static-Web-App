@@ -9,19 +9,6 @@
     }
   };
 
-  function changeSquares(el) {
-    var rows = $(el).parent().index();
-    var cols = $(el).index();
-    var north = (rows - 1, cols);
-    var east = (rows, col + 1);
-    var south = (rows + 1, col);
-    var west = (rows, col - 1);    
-    changeClass(el);
-    changeClass(north);
-    changeClass(east);
-    changeClass(south);
-    changeClass(west);
-
   function allGrey() {
     var elements = document.querySelectorAll('td');
     var allGrey = true;
@@ -33,10 +20,19 @@
     }
     return allGrey;
   }
-      
-                                 
+                               
   $('td').on('click', function() {
-    changeSquares(this);
+    var rows = $(this).parent().index();
+    var cols = $(this).index();
+    var north = (rows - 1, cols);
+    var east = (rows, cols + 1);
+    var south = (rows + 1, cols);
+    var west = (rows, cols - 1);    
+    changeClass(this);
+    changeClass(north);
+    changeClass(east);
+    changeClass(south);
+    changeClass(west);
     if (allGrey()) {
       window.alert('You win!');
     }
