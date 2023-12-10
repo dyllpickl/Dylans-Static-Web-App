@@ -11,8 +11,8 @@
 
   function changeSquare(table, r, c) {
     if (r >= 0 && r < 5 && c >= 0 && c < 5) {
-      var cell = table.rows[r].cells[c];
-      changeClass(cell);
+      var box = table.rows[r].cells[c];
+      changeClass(box);
     }
   }
     
