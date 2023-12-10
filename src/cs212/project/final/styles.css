@@ -6,14 +6,15 @@ body {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   grid-template-rows: 20% 20% 20% 20% 20%;
+  border-collapse: collapse;
+  border-width: 4px;
+  border-style: solid;
 }
 
 #header {
   grid-column: 1/6;
   grid-row: 1/2;
   text-align: center;
-  border-width: 4px;
-  border-style: solid;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -21,25 +22,25 @@ body {
 #table {
   grid-column: 1/6;
   grid-row: 2/5;
-  border-width: 4px;
-  border-style: solid;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 table {
   border-collapse: collapse;
+  align: center;
+}
+
+td {
   border-width: 2px;
   border-style: solid;
   border-color: rgb(211,211,211);
-  align: center;
+  background-color: white;
 }
 
 #addendum {
   grid-column: 1/6;
   grid-row: 5/6;
-  border-width: 4px;
-  border-style: solid;
   padding-left: 20px;
   padding-right: 20px;
   overflow: auto;
