@@ -22,12 +22,12 @@
   }
                                
   $('td').on('click', function() {
-    var rows = $(this).parent().index();
-    var cols = $(this).index();
-    var north = (rows - 1, cols);
-    var east = (rows, cols + 1);
-    var south = (rows + 1, cols);
-    var west = (rows, cols - 1);    
+    var row = $(this).parent().index();
+    var col = $(this).index();
+    var north = (row - 1, col);
+    var east = (row, col + 1);
+    var south = (row + 1, col);
+    var west = (row, col - 1);    
     changeClass(this);
     changeClass(north);
     changeClass(east);
